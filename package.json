@@ -7,7 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha test"
+    "test": "mocha test",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "engines": {
     "node": ">=0.11.16"
@@ -27,11 +29,13 @@
   "homepage": "https://github.com/isotopo/node-odoo",
   "dependencies": {
     "jayson": "^2.0.6",
-    "npm": "^6.6.0"
+    "npm": "^6.6.0",
+    "snyk": "^1.232.0"
   },
   "devDependencies": {
     "gulp": "^3.8.11",
     "gulp-mocha": "^6.0.0",
     "sinon": "^6.1.5"
-  }
+  },
+  "snyk": true
 }
