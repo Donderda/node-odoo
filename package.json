@@ -27,7 +27,7 @@
   "homepage": "https://github.com/isotopo/node-odoo",
   "dependencies": {
     "jayson": "^2.0.6",
-    "npm": "^6.6.0"
+    "npm": "^6.13.4"
   },
   "devDependencies": {
     "gulp": "^3.8.11",
